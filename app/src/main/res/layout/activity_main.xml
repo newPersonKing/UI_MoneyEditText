@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.wajahatkarim3.easymoneywidgets.demo.MainActivity">
+
+    <com.wajahatkarim3.easymoneywidgets.EasyMoneyEditText
+        android:id="@+id/moneyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123456234"
+        android:inputType="numberDecimal"
+        app:show_currency="true"
+        app:show_commas="true"
+        />
+
+    <com.wajahatkarim3.easymoneywidgets.EasyMoneyTextView
+        android:id="@+id/moneyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        app:show_currency="true"
+        app:show_commas="true" />
+
+    <CheckBox android:id="@+id/checkCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Currency"
+        android:checked="true"
+        android:layout_marginTop="50dp"/>
+
+    <CheckBox android:id="@+id/checkCommas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Commas"
+        android:checked="true"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Spinner android:id="@+id/spinnerCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:entries="@array/currency_array"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"></Spinner>
+
+</LinearLayout>

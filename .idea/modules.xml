@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EasyMoney-Widgets.iml" filepath="$PROJECT_DIR$/EasyMoney-Widgets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EasyMoney-Widgets-Library/EasyMoney-Widgets-Library.iml" filepath="$PROJECT_DIR$/EasyMoney-Widgets-Library/EasyMoney-Widgets-Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EasyMoney-Widgets-master.iml" filepath="$PROJECT_DIR$/.idea/modules/EasyMoney-Widgets-master.iml" group="EasyMoney-Widgets-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EasyMoney-Widgets-Library/EasyMoney-Widgets-master-EasyMoney-Widgets-Library.iml" filepath="$PROJECT_DIR$/.idea/modules/EasyMoney-Widgets-Library/EasyMoney-Widgets-master-EasyMoney-Widgets-Library.iml" group="EasyMoney-Widgets-master/EasyMoney-Widgets-Library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EasyMoney-Widgets-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EasyMoney-Widgets-master-app.iml" group="EasyMoney-Widgets-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
